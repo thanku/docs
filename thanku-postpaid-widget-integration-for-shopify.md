@@ -1,3 +1,5 @@
+**ThankU for business** - https://www.thanku.social/en/business
+
 # ThankU Postpaid Widget Integration for Shopify
 
 1. Create a ThankU page: https://www.thanku.social/en/app/personal-link
@@ -25,3 +27,7 @@
 ```
 
 5. Make your customers happy by saying ThankU and doing good! 💚
+
+---
+
+(c) 2021 thxto gUG - www.thanku.social - business@thanku.social
