@@ -7,7 +7,7 @@
 3. Open the following page in your Shopify admin area: https://YOUR-SHOP.myshopify.com/admin/settings/checkout 
 4. Adapt the following snippet to your needs and add it to the `Additional scripts` section:
 
-```
+```liquid
 {% assign secret = "*****ADD*SECRET*TOKEN*HERE******" %}
 {% assign slug = "freshfarm-shop" %}
 {% assign cause = "ProtectWildlife" %}
