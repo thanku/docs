@@ -14,7 +14,7 @@
 {% assign impact = 10 %}
 {% assign message = "Dear " | append: checkout.customer.name | append: ", thank you for shopping with us! We really appreciate you as a customer. Your " | append: shop.name | append: " team." %}
 {% assign lang = "en" %}
-{% assign pid = checkout.id | append: checkout.order_name %}
+{% assign pid = checkout.id %}
 
 {% assign sig = slug | append: "+" | append: cause | append: "+" | append: impact | append: "+" | append: message | append: "+" | append: lang | append: "+" | append: pid | hmac_sha256: secret %}
 
