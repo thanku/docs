@@ -41,7 +41,7 @@ This endpoint is idempotent, which means that same requests result in same ouput
 **Response Body:**
 
 ```json
-{ "id": "tWuaLNDY4DHs29B058zN" }
+{ "id": "sUiS29M3t0CbhOvATxnS" }
 ```
 
 or when simulated:
