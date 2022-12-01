@@ -56,7 +56,7 @@ or when simulated:
 { "id": "00TEST00TEST00TEST00" }
 ```
 
-The `id` can be used to create a ThankU link, which looks like e.g. `https://thx.to/you/tWuaLNDY4DHs29B058zN`. Send this ThankU link to your customer to show your gratitude. Klick [here](https://thx.to/you/sUiS29M3t0CbhOvATxnS) to see an example.
+The `id` can be used to create a ThankU link, which looks like e.g. `https://thx.to/you/sUiS29M3t0CbhOvATxnS`. Send this ThankU link to your customer to show your gratitude. Klick [here](https://thx.to/you/sUiS29M3t0CbhOvATxnS) to see an example.
 
 ## Simulation / Testing
 
