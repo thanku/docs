@@ -41,7 +41,12 @@ This endpoint is idempotent, which means that same requests result in same ouput
 **Response Body:**
 
 ```json
-{ "id": "sUiS29M3t0CbhOvATxnS" }
+{
+  "id": "sUiS29M3t0CbhOvATxnS",
+  "link": "https://www.thanku.social/thanks/sUiS29M3t0CbhOvATxnS",
+  "certificateNum": "328444638561610031954304369211874804",
+  "certificateLink": "https://www.thanku.earth/certificate/328444638561610031954304369211874804"
+}
 ```
 
 or when simulated:
