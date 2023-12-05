@@ -2,7 +2,7 @@
 
 # ThankU Postpaid Widget Integration for Shopify
 
-1. Create a ThankU page: https://www.thanku.social/en/app/personal-link
+1. Create a ThankU wallet: https://www.thanku.social/en/app/personal-link
 2. Contact us via business@thanku.social to become a ThankU Business Partner and to get your Secret Token
 3. Open the following page in your Shopify admin area: https://YOUR-SHOP.myshopify.com/admin/settings/checkout
 4. Adapt the following snippet to your needs and add it to the `Additional scripts` section:
@@ -30,9 +30,9 @@
 
 ## FAQ
 
-### What is my ThankU page name?
+### What is my ThankU wallet name?
 
-On your ThankU page below your name you'll find your ThankU page short link. The part after the colon (:) is your ThankU page name (or slug), e.g. if `thx.to/:john-doe` is the ThankU page short link, then `john-doe` is the slug.
+On your ThankU wallet below your name you'll find your ThankU wallet address. The part after the colon (:) is your ThankU wallet name (or slug), e.g. if `thx.to/:john-doe` is the ThankU wallet address, then `john-doe` is the slug.
 
 ### Which causes are available?
 
@@ -51,4 +51,4 @@ Find all details here: https://github.com/thanku/postpaid-widget
 
 ---
 
-(c) 2022 thxto gUG - www.thanku.social - business@thanku.social
+(c) 2023 thxto gUG - www.thanku.social - business@thanku.social

@@ -6,7 +6,7 @@ The **ThankU Postpaid API Endpoint** can be used to automatically create a new T
 
 This endpoint is used by the **ThankU Postpaid Widget**: https://github.com/thanku/postpaid-widget
 
-To be able to use this endpoint, please create your ThankU page first: https://www.thanku.social/en/app/personal-link and get in contact with us via business@thanku.social to get your secret `token`.
+To be able to use this endpoint, please create your ThankU wallet first: https://www.thanku.social/en/app/personal-link and get in contact with us via business@thanku.social to get your secret `token`.
 
 ## Usage
 
@@ -59,7 +59,7 @@ The `id` can be used to create a ThankU link, which looks like e.g. `https://thx
 
 ## Request JSON Body Attributes
 
-- `slug` - Your ThankU page name
+- `slug` - Your ThankU wallet name
 - `donateeGroup` - The good cause (possible values: `PlantTrees` | `CleanOcean` | `ProtectWildlife`)
 - `impactValue` - The impact value (a positive integer)
   - for `PlantTrees` number of trees
