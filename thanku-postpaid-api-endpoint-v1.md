@@ -6,7 +6,7 @@ The **ThankU Postpaid API Endpoint** can be used to automatically create a new T
 
 This endpoint is used by the **ThankU Postpaid Widget**: https://github.com/thanku/postpaid-widget
 
-To be able to use this endpoint, please create your ThankU wallet first: https://www.thanku.social/en/app/personal-link and get in contact with us via business@thanku.social to get your secret `token`.
+To be able to use this endpoint, please create your ThankU wallet first: https://www.thanku.social/en/app/create-wallet and get in contact with us via business@thanku.social to get your secret `token`.
 
 ## Usage
 
