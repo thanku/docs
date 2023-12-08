@@ -2,7 +2,7 @@
 
 # ThankU Postpaid Widget Integration for Shopify
 
-1. Create a ThankU wallet: https://www.thanku.social/en/app/personal-link
+1. Create a ThankU wallet: https://www.thanku.social/create-wallet
 2. Contact us via business@thanku.social to become a ThankU Business Partner and to get your Secret Token
 3. Open the following page in your Shopify admin area: https://YOUR-SHOP.myshopify.com/admin/settings/checkout
 4. Adapt the following snippet to your needs and add it to the `Additional scripts` section:
