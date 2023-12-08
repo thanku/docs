@@ -4,7 +4,7 @@
 
 The **ThankU Campaign API Endpoint** can be used to automatically create a new ThankU based on a previously configured campaign. After creation the ThankU will be sent via email. The request is secured by a `token` only known to the user and the ThankU system.
 
-To be able to use this endpoint, please create your ThankU wallet first: https://www.thanku.social/en/app/personal-link and get in contact with us via business@thanku.social so that we can configure your campaign and provide the final API endpoint URL.
+To be able to use this endpoint, please create your ThankU wallet first: https://www.thanku.social/create-wallet and get in contact with us via business@thanku.social so that we can configure your campaign and provide the final API endpoint URL.
 
 ## Campaign setup
 
