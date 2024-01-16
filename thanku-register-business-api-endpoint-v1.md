@@ -26,6 +26,7 @@ Body (JSON):
 
 Body (JSON):
 * `token` - the secret token (32 characters alphanumeric) to be used to generate the `signature` for the Postpaid API call
+* `confirmed` - indicates if the user is already confirmed
 
 #### Error case (status: `400`)
 
@@ -36,7 +37,6 @@ Body (JSON):
 
 Body (JSON):
 * `error` - the error name (e.g. `API key invalid`, `API key missing`)
-* `confirmed` - indicates if the user is already confirmed
 
 ---
 
