@@ -36,6 +36,7 @@ Body (JSON):
 
 Body (JSON):
 * `error` - the error name (e.g. `API key invalid`, `API key missing`)
+* `confirmed` - indicates if the user is already confirmed
 
 ---
 
