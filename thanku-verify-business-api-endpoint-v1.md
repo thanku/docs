@@ -28,7 +28,7 @@ Body (JSON):
 #### Error case (status: `400`)
 
 Body (JSON):
-* `error` - the error name (e.g. `user not found`, `invalid request body data`)
+* `error` - the error name (e.g. `user not found`, `no business user`, `invalid request body data`)
 
 #### Error case (status: `403`)
 
