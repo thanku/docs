@@ -14,7 +14,7 @@ Headers:
 
 Body (JSON): 
 * `email` [string] - e.g. `foo@example.com`
-* `callbackUrl` [string] - URL to redirect to after successful confirmation (replacing `THANKU_POSTPAID_TOKEN` in the URL with a BASE64 representation of the users's postpaid token)
+* `callbackUrl` [string] - URL to redirect to after successful confirmation (replacing `THANKU_POSTPAID_TOKEN` in the URL with a __BASE64__ representation of the users's postpaid token)
 
 ### Response
 
