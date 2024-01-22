@@ -24,6 +24,7 @@ Body (JSON):
 * `nickname` [string] - the ThankU wallet name, e.g. `Foo Bar`
 * `slug` [string] - the ThankU wallet address part after `https://thx.to/:` e.g. `foo-bar`
 * `language` [string] - the base language of the user, only `en` and `de` available
+* `confirmed` [boolean] - indicates if the user is already confirmed
   
 #### Error case (status: `400`)
 
