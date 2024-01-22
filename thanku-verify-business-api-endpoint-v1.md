@@ -2,7 +2,7 @@
 
 # ThankU Verify Business API Endpoint (Version 1)
 
-This endpoint is used to check if a business users is already registered via the given email address. A confirmation email containing a confirm button will be send to the user. Hitting the confirm button redirects the user to the given callback URL for further processing.
+This endpoint is used to check if a business users is already registered via the given email address. A confirmation email containing a confirm button will be send to the user. Hitting the confirm button redirects the user to the given callback URL for further processing. This endpoint can also be used to resend the confirmation email after registration.
 
 ## Usage
 
