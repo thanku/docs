@@ -6,7 +6,7 @@ This endpoint is used to register business users, who want to use the Postpaid A
 
 ## Usage
 
-### Request: `POST https://www.thanku.business/api/registerBusiness`
+### Request: `POST https://app.thanku.business/api/registerBusiness`
 
 Headers:
 * `Content-Type`: `application/json`
