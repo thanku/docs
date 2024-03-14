@@ -6,7 +6,7 @@ This endpoint is used to check if a business users is already registered via the
 
 ## Usage
 
-### Request: `POST https://www.thanku.business/api/verifyBusiness`
+### Request: `POST https://app.thanku.business/api/verifyBusiness`
 
 Headers:
 * `Content-Type`: `application/json`
