@@ -8,6 +8,7 @@
 4. Adapt the following snippet to your needs and add it to the `Additional scripts` section:
 
 ```liquid
+{% assign oid = "ADD_THANKU_ORDER_ID_HERE" %}
 {% assign secret = "ADD_SECRET_TOKEN_HERE" %}
 {% assign slug = "ADD_YOUR_THANKU_PAGE_NAME_HERE" %}
 {% assign cause = "ProtectWildlife" %}
@@ -21,7 +22,7 @@
 <link href="https://www.thanku.social/fonts/exo.css" rel="stylesheet" />
 <script type="module" src="https://unpkg.com/@thanku/postpaid-widget"></script>
 
-<thanku-postpaid-widget slug="{{ slug }}" cause="{{ cause }}" impact="{{ impact }}" message="{{ message }}" lang="{{ lang }}" pid="{{ pid }}" sig="{{ sig }}" style="display:block;margin-top:20px">
+<thanku-postpaid-widget oid="{{ oid }}" slug="{{ slug }}" cause="{{ cause }}" impact="{{ impact }}" message="{{ message }}" lang="{{ lang }}" pid="{{ pid }}" sig="{{ sig }}" style="display:block;margin-top:20px">
   <p>{{ message }}</p>
 </thanku-postpaid-widget>
 ```
