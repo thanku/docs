@@ -19,7 +19,11 @@ The following data needs to be defined for a campaign:
 
 This endpoint only allows to create one ThankU per provided email address and per campaign. Using the same email address for different requests is not allowed and will result in HTTP status `400`. This restriction was made to support tools like Google Forms, where users may submit their survey multiple times with the same email address, but should receive only one ThankU.
 
-**Request:** `POST https://www.thanku.social/api/donate/campaign/:id/:token`[`?simulate=true`]
+**Request:** `POST https://www.thanku.social/api/donate/campaign/:id/:token/:orderId`[`?simulate=true`]
+
+- `id`: ID of the campaign
+- `token`: Token of the campaign
+- `orderId`: ThankU Order ID
 
 **Request Headers:**
 
