@@ -28,7 +28,8 @@ This endpoint is idempotent, which means that same requests result in same ouput
   "impactValue": 2,
   "message": "Dear Mrs. Smith, thank you for buying the Smeg 50's Style Toaster, your Foo Shop team",
   "language": "en",
-  "pid": "abcd1234"
+  "pid": "abcd1234",
+  "orderId": "A-21-13"
 }
 ```
 
@@ -68,6 +69,7 @@ The `id` can be used to create a ThankU link, which looks like e.g. `https://thx
 - `message` - The ThankU message you want to show
 - `language` - The language to use (possible values: `de` | `en`)
 - `pid` - The postpaid id (an unique id like e.g. your order id)
+- `orderId` - The ThankU Order ID
 
 ## Generating the signature (`x-sig` header)
 
