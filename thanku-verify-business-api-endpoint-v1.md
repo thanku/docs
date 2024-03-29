@@ -2,7 +2,7 @@
 
 # ThankU Verify Business API Endpoint (Version 1)
 
-This endpoint is used to check if a business users is already registered via the given email address. A confirmation email containing a confirm button will be send to the user. Hitting the confirm button redirects the user to the given callback URL for further processing. This endpoint can also be used to resend the confirmation email after registration.
+This endpoint is used to check if a business user is already registered via the given email address. Regular users with wallet will be autom. converted to business users. A confirmation email containing a confirm button will be send to the user. Hitting the confirm button redirects the user to the given callback URL for further processing. This endpoint can also be used to resend the confirmation email after registration.
 
 ## Usage
 
@@ -29,7 +29,7 @@ Body (JSON):
 #### Error case (status: `400`)
 
 Body (JSON):
-* `error` - the error name (e.g. `user not found`, `no business user`, `invalid request body data`)
+* `error` - the error name (e.g. `user not found`, `user has no wallet`, `invalid request body data`)
 
 #### Error case (status: `403`)
 
