@@ -70,6 +70,7 @@ The `id` can be used to create a ThankU link, which looks like e.g. `https://thx
 - `language` - The language to use (possible values: `de` | `en`)
 - `pid` - The postpaid id (an unique id like e.g. your order id)
 - `orderId` - The ThankU Order ID
+- `use100Grams` - Flag to use 100 grams instead of 1 kg as the base unit for `CleanOcean` (optional boolean)
 
 ## Generating the signature (`x-sig` header)
 
