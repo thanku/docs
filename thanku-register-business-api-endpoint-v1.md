@@ -17,8 +17,8 @@ Body (JSON):
 * `nickname` [string] - the ThankU wallet name, e.g. `Foo Bar`
 * `slug` [string] - the ThankU wallet address part after `https://thx.to/:` e.g. `foo-bar`
 * `language` [string] - the base language of the user, only `en` and `de` available
-* `callbackUrl` [string] - URL to redirect to after successful confirmation (no additional parameters are added)
 * `trustedEmail` [boolean] - indicates if the email was already verified (only when `false` a confirmation email will be send)
+* `callbackUrl` [optional string] - URL to redirect to after successful confirmation (replacing `THANKU_POSTPAID_TOKEN` in the URL with a __BASE64__ representation of the users's postpaid token). Default: https://app.thanku.business/confirmed/?token=THANKU_POSTPAID_TOKEN
 
 ### Response
 
