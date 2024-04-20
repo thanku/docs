@@ -14,7 +14,7 @@ Headers:
 
 Body (JSON): 
 * `email` [string] - e.g. `foo@example.com`
-* `callbackUrl` [string] - URL to redirect to after successful confirmation (replacing `THANKU_POSTPAID_TOKEN` in the URL with a __BASE64__ representation of the users's postpaid token)
+* `callbackUrl` [optional string] - URL to redirect to after successful confirmation (replacing `THANKU_POSTPAID_TOKEN` in the URL with a __BASE64__ representation of the users's postpaid token). Default: https://app.thanku.business/confirmed/?token=THANKU_POSTPAID_TOKEN
 
 ### Response
 
